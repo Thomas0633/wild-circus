@@ -1,0 +1,506 @@
+/* =========================== */
+/* Général */
+body
+{
+  font-family: Tahoma, Calibri, Arial, serif;
+  padding: 0;
+  margin: 0;
+}
+body a
+{
+  text-decoration: none;
+}
+#corps
+{
+  position: relative;
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-top: 0;
+  top: 600px;
+  z-index: 3;
+  background-color: #FFFFFF;
+}
+h2
+{
+  font-family: Amatic SC, Tahoma, Calibri, Arial, serif;
+}
+/* =========================== */
+
+
+
+
+/* =========================== */
+/* Langues */
+#langues
+{
+  position: absolute;
+  z-index: 3;
+  right: 5px;
+  top: 0px;
+}
+#langues img
+{
+  width: 20px;
+  height: 15px;
+  float: right;
+}
+/* =========================== */
+
+
+
+
+/* =========================== */
+/* Logo greatest show */
+#imageGreatest
+{
+  position: absolute;
+  z-index: 3;
+  width: 150px;
+  height: 150px;
+  float: left;
+  top: 15px;
+  left: 50px;
+}
+/* =========================== */
+
+
+
+
+/* =========================== */
+/* Logo principal */
+#logo
+{
+  position: relative;
+  z-index: 3;
+  width: 550px;
+}
+#blockLogo
+{
+  width: 552px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* =========================== */
+
+
+
+
+/* =========================== */
+/* Menu naviguation */
+#blockHeader
+{
+  height: 60px;
+  background-color: #ff3a3a;
+  border-top: 2px black solid;
+  box-shadow: 4px 4px 5px black;
+}
+nav
+{
+  position: relative;
+  z-index: 3;
+  height: 58px;
+}
+nav ul
+{
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  height: 58px;
+}
+.listeMenu
+{
+  list-style-type: none;
+  font-weight: bold;
+  height: 40px;
+  padding: 0 10px 0 10px;
+  line-height: 40px;
+  margin: auto;
+}
+nav a
+{
+  color: #FFFFFF;
+  font-family: Amatic SC, Tahoma, Calibri, Arial, serif;
+  font-size: 1.3em;
+}
+
+
+/* Survol du menu */
+.listeMenu:hover
+{
+  background-color: #FFFFFF;
+  box-shadow: 4px 4px 5px black;
+}
+.listeMenu:hover .lienMenu
+{
+  color: #ff3a3a;
+}
+/* =========================== */
+
+
+
+
+/* =========================== */
+/* Image fond */
+#imageFond
+{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  top: 300px;
+  left: 0;
+  right: 0;
+}
+/* =========================== */
+
+
+
+
+/* =========================== */
+/* Performances */
+#performances
+{
+  padding-top: 50px;
+}
+#performances h2
+{
+  border: 1px #FFFFFF solid;
+  text-align: center;
+}
+#menuPerf
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+}
+#menuPerf li
+{
+  list-style-type: none;
+  width: 300px;
+  margin: 0 30px 0 30px;
+}
+.titrePerf
+{
+  text-align: center;
+}
+.textPerf
+{
+  text-align: justify;
+}
+/* =========================== */
+
+
+
+
+/* =========================== */
+/* About */
+#rideaux
+{
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+#aboutBackground
+{
+  position: absolute;
+  left: 0;
+  height: 500px;
+  width: 100%;
+  background-color: #ff3a3a;
+}
+#about
+{
+  margin-top: 100px;
+}
+#aboutBackground h2
+{
+  color: #FFFFFF;
+}
+#textAbout
+{
+  position: absolute;
+  z-index: 3;
+  color: #FFFFFF;
+  text-align: justify;
+  padding: 20px 0 0 25px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+#about h2
+{
+  text-align: center;
+}
+/* =========================== */
+
+
+
+
+/* =========================== */
+/* Prices */
+#prices
+{
+  margin-top: 700px;
+  background-color: #FFFFFF;
+  height: 800px;
+}
+#prices h2
+{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+
+/* -- Plan -- */
+#planPlaces
+{
+  height: 470px;
+  width: 500px;
+}
+
+
+/* -- Sélection dates -- */
+#selectDates
+{
+  background-color: #ff3a3a;
+  height: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 50px;
+}
+#selectDates p
+{
+  margin: 0;
+}
+#selectDates label
+{
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #FFFFFF;
+}
+#dates
+{
+  margin-left: 20px;
+}
+#dates option
+{
+  font-size: 1.7em;
+  width: 190px;
+}
+
+
+/* -- Tableau -- */
+table
+{
+  border-collapse: collapse;
+  font-size: 0.8em;
+}
+
+/* Formatage principal toutes cellules */
+.lignePrincipale, .colonneSemaine, .colonneCouleurs, .celluleSemaine, .celluleWeekend, .celluleVide
+{
+  text-align: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+/* bordure cellules */
+#tableauPrix table
+{
+  border: 2px solid black;
+}
+.lignePrincipale, .colonneCouleurs, .celluleSemaine, .celluleWeekend, .celluleVide, .celluleSemainePrincip, .celluleWeekendPrincip
+{
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+/* Couleur cellules */
+.celluleVide
+{
+  background-color: #B7B7B7;
+}
+.colonneCouleurs, .lignePrincipale
+{
+  background-color: #B7B7B7;
+}
+.celluleSemainePrincip, .celluleSemaine
+{
+  background-color: #D3D3D3;
+}
+
+/* Colonne semaines et week-end */
+.colonnePrincipale
+{
+  font-weight: normal;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.cellules
+{
+  padding-top: 8px;
+  padding-bottom: 0px;
+}
+table p
+{
+  margin-top: 0;
+}
+
+/* Liste prix */
+#selectDates, #tableauPrix
+{
+  width: 700px;
+}
+
+
+/* -- Bouton -- */
+#boutonTableau
+{
+  float: right;
+  margin-right: 50px;
+  margin-top: 550px;
+}
+
+
+/* -- Tailles différentes -- */
+@media screen and (min-width: 1415px) /* Grande taille */
+{
+  #planPlaces
+  {
+    float: left;
+  }
+  #plan
+  {
+    position: absolute;
+  }
+  #choixPrixDate
+  {
+    position: absolute;
+  }
+  #selectDates
+  {
+    margin-left: 500px;
+  }
+  #selectDates, #tableauPrix
+  {
+    float: right;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 1415px) /* Petite taille */
+{
+  /* Prices */
+  #prices
+  {
+    height: 1100px;
+  }
+  #plan
+  {
+    text-align: center;
+  }
+  #planPlaces
+  {
+    height: 370px;
+    width: 400px;
+  }
+  #choixPrixDate
+  {
+    clear: both;
+  }
+  #selectDates, #tableauPrix
+  {
+    margin: auto;
+  }
+  #boutonTableau
+  {
+    margin-top: 0;
+  }
+}
+/* =========================== */
+
+
+
+
+/* =========================== */
+/* Contact */
+#contact
+{
+  clear: both;
+  position: absolute;
+  background-color: #ff3a3a;
+  left: 0;
+  right: 0;
+  height: 350px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
+  color: #FFFFFF;
+}
+#contact fieldset
+{
+  border: none;
+}
+hr
+{
+  border: 1px black solid;
+}
+
+
+/* Formulaires */
+#formulaireContact
+{
+  width: 100%;
+}
+#message
+{
+  width: 300px;
+  height: 70px;
+}
+#formulaireContact label, input
+{
+  vertical-align: top;
+}
+#formulaireMessage
+{
+  margin-left: 50px;
+}
+#boutonFooter
+{
+  position: absolute;
+  right: 100px;
+}
+/* =========================== */
+
+
+
+
+/* =========================== */
+/* Footer */
+footer
+{
+  position: relative;
+  z-index: 3;
+  top: 880px;
+  padding-right: 100px;
+  padding-left: 100px;
+  color: #FFFFFF;
+}
+footer a
+{
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+footer a:hover
+{
+  color: #000000;
+}
+#logoWild
+{
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+/* =========================== */
